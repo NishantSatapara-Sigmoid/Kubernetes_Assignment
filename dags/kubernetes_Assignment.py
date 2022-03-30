@@ -7,7 +7,7 @@ from fetch_data import fetch_info
 default_args = {
     "owner": "Airflow",
     "depends_on_past": False,
-    "start_date": datetime(2022, 3, 23),
+    "start_date": datetime(2022, 3, 27),
     "email": ["airflow@airflow.com"],
     "email_on_failure": False,
     "email_on_retry": False,
